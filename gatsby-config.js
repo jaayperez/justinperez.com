@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/justinperez.com",
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "Justin Perez | Full Stack Developer | Los Angeles, California",
+    author: "Justin Perez",
+    description: "Welcome to the portfolio. This site was designed to display my development and work experience"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +16,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/Diamond.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

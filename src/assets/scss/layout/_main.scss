@@ -18,6 +18,31 @@
 		z-index: 3;
 		display: none;
 
+	#intro {
+		width: 70rem;
+		background-size: cover;
+		background-image: url('../../images/apple.jpg');
+	}
+
+  #skills {
+		width: 80rem;
+		background-size: contain;
+		background-image: url('../../images/diabloKeys.jpg');
+	}
+
+	#work {
+		width: 80rem;
+		background-size: cover;
+		background-image: url('../../images/lamborghiniSnow.jpg');
+	}
+
+	#contact {
+		width: 40rem;
+		background-size: cover;
+		background-position: center;
+		background-image: url('../../images/bmwm.jpg');
+	}
+
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
