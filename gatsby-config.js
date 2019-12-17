@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Justin Perez | Full Stack Developer | Los Angeles, California",
     author: "Justin Perez",
-    description: "Welcome to the portfolio. This site was designed to display my development and work experience"
+    description: "I created this new portfolio to display my work in development. Enjoy your experiencee"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

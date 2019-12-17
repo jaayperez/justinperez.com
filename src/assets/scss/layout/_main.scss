@@ -26,7 +26,9 @@
 
   #skills {
 		width: 80rem;
-		background-size: contain;
+		overflow: hidden;
+		background-size: cover;
+	  background-repeat: no-repeat;
 		background-image: url('../../images/diabloKeys.jpg');
 	}
 

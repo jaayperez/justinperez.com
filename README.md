@@ -1,3 +1,3 @@
 # justinperez.com
 
-Welcome to the portfolio. This site was designed to display my development and work experience
+I created this new portfolio to display my work in development. Enjoy your experience
