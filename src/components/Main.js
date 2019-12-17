@@ -23,8 +23,9 @@ class Main extends React.Component {
 
           <h2 className="major">Introduction</h2>
           <h3>Who I Am</h3>
-          <p>The Founder, CEO, and President of <a href="#">Start Rev Technology</a>; a Los Angeles based tech startup focused on precision-engineered web solutions for established companies and business professionals.</p>
-          <p>4 years of working experience as a full stack developer and Ecommerce specialist. Skilled in user interface /experience design, SEO best practices and web technologies including Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs. Adept at working effectively in a team and self-managing during independent projects.</p>
+          <p>The Founder, CEO, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; a Los Angeles based tech startup focused on precision-engineered web solutions for established companies and business professionals.</p>
+          <p>4 years of working experience as a full stack developer and Ecommerce specialist. Skilled in user interface /experience design, SEO best practices and web technologies including Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs. Adept at working effectively in a team and self-managing during independent projects.
+          Connect with me on  <a className="gold" href="https://www.linkedin.com/in/jjustinperez" target="_blank">LinkedIn</a>.</p>
 
           <span className="image main intro">
             <img src={pic01} alt="" />
@@ -41,13 +42,13 @@ class Main extends React.Component {
           <h2 className="major">Skills and Expertise</h2>
 
           <ul className="service-list">
-            <li><h3>Languages and Frameworks: </h3><p> HTML5, CSS3, JavaScript, Bootstrap, PHP, Ruby and Liquid</p></li>
-            <li><h3>Libraries and APIs: </h3><p> jQuery, Google APIs, Maps API, Instagram API, Shopify REST API, Youtube API</p></li>
-            <li><h3>Software and Tools: </h3><p> Git /GitHub, NPM, Google Analytics, SEO and Speed Optimization Tools</p></li>
+            <li><h3>Frameworks and Languages I Speak: </h3><p> HTML5, CSS3, JavaScript, Bootstrap, PHP, Ruby and Liquid</p></li>
+            <li><h3>APIs and Libraries: </h3><p> jQuery, Google APIs, Maps API, Instagram API, Shopify REST API, Youtube API</p></li>
+            <li><h3>Preferred Software and Tools: </h3><p> Git /GitHub, NPM, Google Analytics, SEO and Speed Optimization Tools</p></li>
             <li><h3>Platforms: </h3><p> Shopify, WordPress, WooComerce, Google Cloud Platform, Trello, MailChimp, Zendesk</p></li>
           </ul>
           <ul className="service-list">
-            <li><h3>Skills:</h3><p>Search Engine Optimization (SEO), Ecommerce Development, User Interface Design, User Experience (UX), Analytics Software, and APIs</p></li>
+            <li><h3>Tech Skills:</h3><p>Search Engine Optimization (SEO), Ecommerce Development, User Interface Design, User Experience (UX), Package Managers, Task Runners, Analytics Software, and APIs</p></li>
           </ul>
           {close}
         </article>
@@ -72,8 +73,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}>
 
-          <h2 className="major">Contact</h2>
-          <p>Complete the form to see how we could work together.<br/> Direct message me <a href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+          <h2 className="major">Contact Me</h2>
+          <p>Complete the form to see how we could work together.<br/> Direct message me <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
           <form method="post" action="#" accept-charset="utf-8">
             <div className="field">
               <label htmlFor="name">First and Last Name*</label>
@@ -100,7 +101,7 @@ class Main extends React.Component {
           </form>
 
           <h3 className="contact">New Business /</h3>
-          <p><a href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+          <p><a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
 
           <h3>Social Networks /</h3>
           <ul className="icons">
