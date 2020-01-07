@@ -23,8 +23,8 @@ class Main extends React.Component {
 
           <h2 className="major">Introduction</h2>
           <h3>Who I Am</h3>
-          <p>The Founder, CEO, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; The Los Angeles tech start up, focused on precision-engineered web solutions designed for established companies and business professionals.</p>
-          <p>With over 4 years of working experience, I specialize in Ecommerce and Web Technologies. Skilled in user interface /experience design, SEO best practicesm, and technologies such as Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs.
+          <p>Bests as CEO, Founder, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; The Los Angeles tech start up, designing precision-engineered web solutions for established companies and business professionals.</p>
+          <p>With over 4 years of working experience, I specialize in Ecommerce and Web Technologies. Being skilled in user interface /experience design, SEO best practices, and technologies such as Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs.
           Connect on  <a className="gold" href="https://www.linkedin.com/in/jjustinperez" target="_blank">LinkedIn</a>.</p>
 
           <span className="image main intro">
@@ -60,7 +60,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Work Portfolio</h2>
-          <p>On the way ...</p>
+          <p>Is up ahead</p>
           <span className="image main work">
             <img src={pic02} alt="" />
           </span>
@@ -74,7 +74,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Contact Me</h2>
-          <p>Complete the form to see how we could work together.<br/> Direct message me <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+          <p>Complete the form and see how we could work together.<br/> Direct message <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
           <form method="post" action="#" accept-charset="utf-8">
             <div className="field">
               <label htmlFor="name">First and Last Name*</label>
