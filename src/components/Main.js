@@ -23,9 +23,9 @@ class Main extends React.Component {
 
           <h2 className="major">Introduction</h2>
           <h3>Who I Am</h3>
-          <p>The Founder, CEO, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; a Los Angeles based tech startup focused on precision-engineered web solutions for established companies and business professionals.</p>
-          <p>4 years of working experience as a full stack developer and Ecommerce specialist. Skilled in user interface /experience design, SEO best practices and web technologies including Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs. Adept at working effectively in a team and self-managing during independent projects.
-          Connect with me on  <a className="gold" href="https://www.linkedin.com/in/jjustinperez" target="_blank">LinkedIn</a>.</p>
+          <p>The Founder, CEO, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; The Los Angeles tech start up, focused on precision-engineered web solutions designed for established companies and business professionals.</p>
+          <p>With over 4 years of working experience, I specialize in Ecommerce and Web Technologies. Skilled in user interface /experience design, SEO best practicesm, and technologies such as Git, HTML5/CSS3/JavaScript, Bootstrap, Analytics Software and APIs.
+          Connect on  <a className="gold" href="https://www.linkedin.com/in/jjustinperez" target="_blank">LinkedIn</a>.</p>
 
           <span className="image main intro">
             <img src={pic01} alt="" />
