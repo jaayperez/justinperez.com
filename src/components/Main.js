@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/435.jpg'
+import pic02 from '../images/435.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,7 +28,7 @@ class Main extends React.Component {
 
           <p>Lastly, standing as CEO, Founder, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; The Los Angeles tech start up, engineering transformative, customer-centric business solutions in great precision.</p>
           <span className="image main intro">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="Introduction" />
           </span>
           {close}
         </article>
@@ -63,7 +62,7 @@ class Main extends React.Component {
           <h2 className="major">Work Portfolio</h2>
           <p></p>
           <span className="image main work">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="Portfolio" />
           </span>
           {close}
         </article>
@@ -98,7 +97,6 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" /></li>
             </ul>
             <input type="hidden" name="thankyou_url" value=""/>
-
           </form>
 
           <h3 className="contact">New Business /</h3>
