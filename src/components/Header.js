@@ -10,14 +10,14 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Justin Perez</h1>
                 <p>I design, build, and launch websites and applications.
-                <br/>Check my work, view my skills, or get in contact</p>
+                <br/> Check my work, view my skills, or get in contact</p>
                 <ul className="icons">
                   <li><a href="https://github.com/jaayperez" className="icon fa-github" target="_blank" rel="noopener noreferrer">
-                      <span className="label">GitHub</span></a></li>
-                  <li><a href="https://www.linkedin.com/in/jjustinperez" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
-                      <span className="label">LinkedIn</span></a></li>
-                  <li><a href="https://www.instagram.com/jaay.justin" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
-                      <span className="label">Instagram</span></a></li>
+                    <span className="label">GitHub</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
+                    <span className="label">LinkedIn</span></a></li>
+                  <li><a href="https://www.instagram.com/justin200p300" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
+                    <span className="label">Instagram</span></a></li>
                 </ul>
             </div>
         </div>
