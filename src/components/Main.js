@@ -21,14 +21,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Introduction</h2>
-          <h3>Who I Am</h3>
+          <h3>Who Am I</h3>
           <p>I am a full stack engineer, specializing in Ecommerce at 4 years' experience. Well versed in user interface design, CMS, SEO and technologies e.g., Git, HTML5, CSS3, JavaScript, Bootstrap, Analytics Software and APIs.
-          My role spans an innovator and leader, drawing clients from around the world, in addition to being bilingual in English and Spanish.
-          Feel free to connect on my professional network  <a className="gold" href="https://www.linkedin.com/in/jjustinperez" target="_blank">LinkedIn</a>.</p>
+          Connect on my professional network  <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
 
-          <p>Lastly, standing as CEO, Founder, and President of <a className="gold" href="https://startrev.com" target="_blank">Start Rev Technology</a>; The Los Angeles tech start up, engineering transformative, customer-centric business solutions in great precision.</p>
+          <p>Lastly, standing as the CEO, Founder, and President of <a className="gold" href="https://www.startrev.com" target="_blank" rel="noopener noreferrer">Start Rev Technology</a>; A Los Angeles start up company, engineering transformative, client-centric tech solutions in precision.</p>
           <span className="image main intro">
-            <img src={pic01} alt="Introduction" />
+            <img src={pic01} alt="Introduction" style={{ width: '50%' }} />
           </span>
           {close}
         </article>
@@ -37,18 +36,17 @@ class Main extends React.Component {
           className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
+          style={{ display: 'none' }}>
           <h2 className="major">Skills and Expertise</h2>
 
           <ul className="service-list">
-            <li><h3>Frameworks and Languages</h3><p> HTML5, CSS3, JavaScript, Bootstrap, PHP, Ruby and Liquid</p></li>
-            <li><h3>APIs and Libraries</h3><p> jQuery, Google APIs, Maps API, Instagram API, Shopify REST API, Youtube API</p></li>
-            <li><h3>Software and Tools</h3><p> Git /GitHub, NPM, Google Analytics, SEO and Speed Optimization Tools</p></li>
-            <li><h3>Platforms</h3><p> Shopify, WordPress, WooComerce, Google Cloud Platform, MailChimp, Zendesk</p></li>
+            <li><h3>Frameworks and Languages</h3><p> Bootstrap, CSS3, HTML5, JavaScript, Jekyll, JSON, Liquid, PHP, Ruby</p></li>
+            <li><h3>APIs and Libraries</h3><p> jQuery, Google APIs, Instagram API, Maps JS API, Shopify REST API, Youtube API</p></li>
+            <li><h3>Software and Tools</h3><p> Git /GitHub, Google Analytics, NPM, SEO and Speed/Performance Optimization Tools</p></li>
+            <li><h3>Platforms</h3><p> Google Cloud Platform, MailChimp, Shopify, WordPress, WooComerce, Zendesk</p></li>
           </ul>
           <ul className="service-list">
-            <li><h3>Additional</h3><p>Search Engine Optimization (SEO), Ecommerce Development, User Interface Design, User Experience (UX), Package Managers, Task Runners, Analytics Software, and APIs</p></li>
+            <li><h3>Additional</h3><p>SEO Search Engine Optimization, Data Integration, Ecommerce Development, Interface Design, UX User Experience, Package Managers, Task Runners, Analytics Software, and APIs</p></li>
           </ul>
           {close}
         </article>
@@ -60,7 +58,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Work Portfolio</h2>
-          <p></p>
+          <p>Coming</p>
           <span className="image main work">
             <img src={pic02} alt="Portfolio" />
           </span>
@@ -85,7 +83,7 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" isRequired/>
             </div>
             <div className="field">
-              <label htmlFor="email">Current Website</label>
+              <label htmlFor="email">Existing Website</label>
               <input type="text" name="website" id="website" />
             </div>
             <div className="field">
@@ -98,25 +96,6 @@ class Main extends React.Component {
             </ul>
             <input type="hidden" name="thankyou_url" value=""/>
           </form>
-
-          <h3 className="contact">New Business /</h3>
-          <p><a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
-
-          <h3>Social Networks /</h3>
-          <ul className="icons">
-            <li><a href="https://github.com/jaayperez" className="icon fa-github" target="_blank">
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/jjustinperez" className="icon fa-linkedin" target="_blank">
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
-            <li><a href="https://www.instagram.com/jaay.justin" className="icon fa-instagram" target="_blank">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-          </ul>
           {close}
         </article>
       </div>
