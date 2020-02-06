@@ -22,12 +22,11 @@ class Main extends React.Component {
 
           <h2 className="major">Introduction</h2>
           <h3>Who Am I</h3>
-          <p>I am a full stack engineer, specializing in Ecommerce at 4 years' experience. Well versed in user interface design, CMS, SEO and technologies e.g., Git, HTML5, CSS3, JavaScript, Bootstrap, Analytics Software and APIs.
-          Connect on my professional network  <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
-
-          <p>Lastly, standing as the CEO, Founder, and President of <a className="gold" href="https://www.startrev.com" target="_blank" rel="noopener noreferrer">Start Rev Technology</a>; A Los Angeles start up company, engineering transformative, client-centric tech solutions in precision.</p>
+          <p>My name is Justin Perez. I'm the CEO, <a className="gold" href="https://www.startrev.com" target="_blank" rel="noopener noreferrer">Start Rev Technology</a>. My startup company is from Los Angeles, engineering transformative, client-centric tech solutions in great precision.
+          In addition for my work I'm a full stack engineer, while specializing in Ecommerce at 4 years' experience. Well versed in user interface design, CMS, SEO and technologies e.g., Git, HTML5, CSS3, JavaScript, Bootstrap, Analytics Software and APIs.
+          Connect to my professional network  <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
           <span className="image main intro">
-            <img src={pic01} alt="Introduction" style={{ width: '50%' }} />
+            <img src={pic01} alt="My Introduction" style={{ width: '50%' }} />
           </span>
           {close}
         </article>
@@ -38,7 +37,6 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}>
           <h2 className="major">Skills and Expertise</h2>
-
           <ul className="service-list">
             <li><h3>Frameworks and Languages</h3><p> Bootstrap, CSS3, HTML5, JavaScript, Jekyll, JSON, Liquid, PHP, Ruby</p></li>
             <li><h3>APIs and Libraries</h3><p> jQuery, Google APIs, Instagram API, Maps JS API, Shopify REST API, Youtube API</p></li>
@@ -46,7 +44,7 @@ class Main extends React.Component {
             <li><h3>Platforms</h3><p> Google Cloud Platform, MailChimp, Shopify, WordPress, WooComerce, Zendesk</p></li>
           </ul>
           <ul className="service-list">
-            <li><h3>Additional</h3><p>SEO Search Engine Optimization, Data Integration, Ecommerce Development, Interface Design, UX User Experience, Package Managers, Task Runners, Analytics Software, and APIs</p></li>
+            <li><h3>Additional</h3><p>SEO Search Engine Optimization, Data Integration, Ecommerce Development, Interface Design, User Experience, Package Managers, Task Runners, Analytics Software, and APIs</p></li>
           </ul>
           {close}
         </article>
@@ -60,7 +58,7 @@ class Main extends React.Component {
           <h2 className="major">Work Portfolio</h2>
           <p>Coming</p>
           <span className="image main work">
-            <img src={pic02} alt="Portfolio" />
+            <img src={pic02} alt="My Portfolio" style={{ width: '50%' }} />
           </span>
           {close}
         </article>
@@ -71,9 +69,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}>
 
-          <h2 className="major">Contact Me</h2>
-          <p>See how we could work together by completing the form.<br/> Direct message <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
-          <form method="post" action="#" accept-charset="utf-8">
+          <h2 className="major">Contact</h2>
+          <p>See how we could work together after completing this form.<br/> Direct message <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+          <form method="post" action="#" acceptCharset="utf-8">
             <div className="field">
               <label htmlFor="name">First and Last Name*</label>
               <input type="text" name="name" id="name" isRequired/>
