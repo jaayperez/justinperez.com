@@ -9,8 +9,9 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Justin Perez</h1>
-                <p>I design, build, and launch websites and applications.
-                <br/> Check my work, view my skills, or get in contact</p>
+                <h2>Full Stack Engineer</h2>
+                <p>Building websites and applications for interfaces is what I do.
+                <br/> See my work, check my skills, or get in contact</p>
                 <ul className="icons">
                   <li><a href="https://github.com/jaayperez" className="icon fa-github" target="_blank" rel="noopener noreferrer">
                     <span className="label">GitHub</span></a></li>
