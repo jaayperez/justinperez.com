@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Justin Perez - CEO and Full Stack Engineer - Los Angeles, California",
+    title: "Justin Perez - Full Stack Developer - Los Angeles, California",
     author: "Justin Perez",
-    description: "Building websites and applications for interfaces is what I do. See my work, check my skills, or get in contact."
+    description: "Developing custom websites and applications. See my work or get in contact."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
