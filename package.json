@@ -1,6 +1,6 @@
 {
   "name": "justinperez.com",
-  "description": "Developing custom websites and applications. See my work or get in contact.",
+  "description": "",
   "version": "1.0.0",
   "author": "Justin Perez",
   "dependencies": {
@@ -15,7 +15,8 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "Justin Perez, react, gatsby"
+    "react",
+    "gatsby"
   ],
   "license": "MIT",
   "scripts": {
