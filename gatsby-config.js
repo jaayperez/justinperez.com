@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Justin Perez - Full Stack Developer - Los Angeles, California",
+    title: "Justin Perez - Full Stack Web Developer in Los Angeles, CA",
     author: "Justin Perez",
-    description: "Developing custom websites and applications. See my work or get in contact."
+    description: "Justin Perez is a Full Stack Web Developer in Los Angeles, California.",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Justin Perez Website',
+        short_name: 'Justin Perez',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
