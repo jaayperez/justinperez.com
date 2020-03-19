@@ -21,10 +21,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Introduction</h2>
-          <h3>Who Am I</h3>
-          <p>I'm Justin Perez, the chief executive officer of <a className="gold" href="https://www.startrev.com" target="_blank" rel="noopener noreferrer">Start Rev Technology</a>; A Los Angeles tech startup company whose purpose is engineering transformative, client-centric tech solutions with great precision.
-          In addition to my 4 years of work experience, I am a current full stack engineer, specializing in Ecommerce. Moreover, being well versed in user interface design, CMS, SEO and technologies e.g., Git, HTML5, CSS3, JavaScript, Bootstrap, Analytics Software and APIs.
-          Connect to my professional network  <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+          <h3>Who I Am</h3>
+          <p>I am Justin Perez. Hardworking and dedicated Full Stack Web Developer from Los Angeles, California with over four years of extensive experience in Ecommerce and web development.
+          I have a proven track record of professionalism combined with results and I am very adept when it comes to Search Engine Optimization (SEO) and Conversion Rate Optimization (CRO).
+          Well versed in technologies including Git and GitHub, Shopify Liquid, Bootstrap, Web APIs and Analytics Software.
+          In addition to my knowledge base, I actively seek out new technologies and stay up-to-date on industry trends and advancements to be just ahead of the curve and deliver exceptional work to all of my employers, including those I've worked for on a project basis.
+          I am passionate, I am hungry, and I have got mad talent.
+          Feel free to connect to my professional network on <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
           <span className="image main intro">
             <img src={pic01} alt="My Introduction" style={{ width: '50%' }} />
           </span>
@@ -38,13 +41,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
           <h2 className="major">Skills and Expertise</h2>
           <ul className="service-list">
-            <li><h3>Frameworks and Languages</h3><p> Bootstrap, CSS3, HTML5, JavaScript, Jekyll, JSON, Liquid, PHP, Ruby</p></li>
-            <li><h3>APIs and Libraries</h3><p> jQuery, Google APIs, Instagram API, Maps JS API, Shopify REST API, Youtube API</p></li>
-            <li><h3>Software and Tools</h3><p> Git /GitHub, Google Analytics, NPM, SEO and Speed/Performance Optimization Tools</p></li>
+            <li><h3>Framework and Languages</h3><p> Bootstrap, CSS3, HTML5, JavaScript, Jekyll, JSON, Liquid, Node.js, PHP, React, Ruby</p></li>
+            <li><h3>API and Libraries</h3><p> jQuery, Google APIs, Instagram API, Maps JS API, Shopify REST API, Youtube API</p></li>
+            <li><h3>Software and Tools</h3><p> Git and GitHub, Google Analytics, NPM, SEO and Speed/Performance Optimization Tools</p></li>
             <li><h3>Platforms</h3><p> Google Cloud Platform, MailChimp, Shopify, WordPress, WooComerce, Zendesk</p></li>
           </ul>
           <ul className="service-list">
-            <li><h3>Additional</h3><p>SEO Search Engine Optimization, Data Integration, Ecommerce Development, Interface Design, User Experience, Package Managers, Task Runners, Analytics Software, and APIs</p></li>
+            <li><h3>Additional</h3><p>SEO Search Engine Optimization, Data Integration, Ecommerce Development, Interface Design, User Experience, Package Managers, Task Runners, Analytics Software</p></li>
           </ul>
           {close}
         </article>
@@ -56,7 +59,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Work Portfolio</h2>
-          <p>Coming</p>
+          <p></p>
           <span className="image main work">
             <img src={pic02} alt="My Portfolio" style={{ width: '50%' }} />
           </span>
@@ -70,7 +73,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}>
 
           <h2 className="major">Contact</h2>
-          <p>See how we could work together after completing this form.<br/> Direct message <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+          <p>Send me an email about your project by completing this form.
+          <br/>Reach me directly at <a className="gold" href="mailto:justin@startrev.com">justin@startrev.com</a></p>
           <form method="post" action="#" acceptCharset="utf-8">
             <div className="field">
               <label htmlFor="name">First and Last Name*</label>
@@ -81,7 +85,7 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" isRequired/>
             </div>
             <div className="field">
-              <label htmlFor="email">Existing Website</label>
+              <label htmlFor="email">Website</label>
               <input type="text" name="website" id="website" />
             </div>
             <div className="field">
