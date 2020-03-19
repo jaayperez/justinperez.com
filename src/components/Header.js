@@ -9,9 +9,9 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Justin Perez</h1>
-                <h2>Full Stack Engineer</h2>
-                <p>Building websites and applications for interfaces is what I do.
-                <br/> See my work, check my skills, or get in contact</p>
+                <h2>Full Stack Web Developer</h2>
+                <p>Developing custom websites and applications in Los Angeles, CA.
+                <br/>Need a quote on your project or just have a question shoot me an email</p>
                 <ul className="icons">
                   <li><a href="https://github.com/jaayperez" className="icon fa-github" target="_blank" rel="noopener noreferrer">
                     <span className="label">GitHub</span></a></li>
