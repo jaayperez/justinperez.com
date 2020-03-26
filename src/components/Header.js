@@ -17,7 +17,7 @@ const Header = (props) => (
                     <span className="label">GitHub</span></a></li>
                   <li><a href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
                     <span className="label">LinkedIn</span></a></li>
-                  <li><a href="https://www.instagram.com/justin200p300" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://www.instagram.com/jaay.justin" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
                     <span className="label">Instagram</span></a></li>
                 </ul>
             </div>
