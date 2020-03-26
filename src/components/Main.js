@@ -22,12 +22,8 @@ class Main extends React.Component {
 
           <h2 className="major">Introduction</h2>
           <h3>Who I Am</h3>
-          <p>I am Justin Perez. Hardworking and dedicated Full Stack Web Developer from Los Angeles, California with over four years of extensive experience in Ecommerce and web development.
-          I have a proven track record of professionalism combined with results and I am very adept when it comes to Search Engine Optimization (SEO) and Conversion Rate Optimization (CRO).
-          Well versed in technologies including Git and GitHub, Shopify Liquid, Bootstrap, Web APIs and Analytics Software.
-          In addition to my knowledge base, I actively seek out new technologies and stay up-to-date on industry trends and advancements to be just ahead of the curve and deliver exceptional work to all of my employers, including those I've worked for on a project basis.
-          I am passionate, I am hungry, and I have got mad talent.
-          Feel free to connect to my professional network on <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+          <p>My name is Justin Perez. Hardworking and dedicated full stack web developer with four years of extensive experience in Ecommerce and frontend development. A proven track record of professionalism combined with results and very adept when it comes to Search Engine Optimization. Well versed in technologies such as Git, Shopify Liquid, Bootstrap 4, web APIs, and analytics software. In addition to my knowledge base, I stay up-to-date on industry trends and advancements to stay just ahead of the curve and deliver exceptional work. Able to effectively self manage during independent projects, as well as collaborate in a productive team environment. I am passionate, I am hungry, and I have got mad talent.
+          Feel free to connect on my professional network <a className="gold" href="https://www.linkedin.com/in/jjustinperez?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
           <span className="image main intro">
             <img src={pic01} alt="My Introduction" style={{ width: '50%' }} />
           </span>
