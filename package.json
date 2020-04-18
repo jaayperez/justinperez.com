@@ -12,7 +12,8 @@
     "node-sass": "^4.13.1",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.0"
   },
   "keywords": [
     "react",
