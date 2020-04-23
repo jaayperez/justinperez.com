@@ -18,14 +18,14 @@
 		z-index: 3;
 		display: none;
 
-	#intro {
+	#about {
 		width: 70rem;
 		background-size: cover;
 		background-image: url('../../images/apple.jpg');
 	}
 
   #skills {
-		width: 80rem;
+		width: 60rem;
 		overflow: hidden;
 		background-size: cover;
 	  background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
-			opacity: 0;
+			opacity: 1;
 
 			&.timeout {
 				display: none;
