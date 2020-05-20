@@ -77,7 +77,7 @@ class Main extends React.Component {
                 <Item>
                   <Card style={{ opacity: '0.9' }}>
                     <Content>
-                      <h4><a className="gold" href="https://github.com/jaayperez/shopify-node-express-app" target="_blank" rel="noopener noreferrer">Shopify App</a></h4>
+                      <h4><a className="gold" href="https://github.com/jaayperez/shopify-node-react-app" target="_blank" rel="noopener noreferrer">Shopify App</a></h4>
                       <p>Shopify Application</p>
                       <div>
                         <span>React, Node.js, Next.js, and GraphQL</span>
@@ -121,8 +121,8 @@ class Main extends React.Component {
                 <Item>
                   <Card style={{ opacity: '0.9' }}>
                     <Content>
-                      <h4><a className="gold" href="https://github.com/jaayperez/mySpotifyReact" target="_blank" rel="noopener noreferrer">Spotify App</a></h4>
-                      <p>Spotify Listing Application</p>
+                      <h4><a className="gold" href="https://github.com/jaayperez/spotify-react-native-app" target="_blank" rel="noopener noreferrer">Spotify App</a></h4>
+                      <p>Spotify Music Listing Application</p>
                       <div>
                         <span>React Native and Spotify Web API</span>
                       </div>
