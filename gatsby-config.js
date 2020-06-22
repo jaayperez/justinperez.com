@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Justin Perez Website',
-        short_name: 'Justin Perez',
+        name: 'Justin\'s Workfolio\: Personal Website',
+        short_name: 'Justin\'s Website',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
