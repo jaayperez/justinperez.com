@@ -11,8 +11,8 @@ const Header = (props) => (
             <span className="icon fa-diamond"></span>
             </div>
             <h2>Justin Perez</h2>
-            <p style={{textAlign: 'left'}}>Full Stack Web Developer using Node.js and React to develop and build custom websites and applications.
-            If you need a project quote or have a question just shoot an email <a href="mailto:justin@startrev.com">justin@startrev.com</a></p>
+            <p style={{textAlign: 'left'}}>Full stack web developer in Los Angeles who specializes in the design and build of custom websites and applications.
+            Need a project quote or have a question, shoot your email at <a href="mailto:justin@startrev.com">justin@startrev.com</a></p>
             <br/>
             <nav>
                 <ul>
